@@ -1,0 +1,17 @@
+{
+  "name": "directorylint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "node_modules/.bin/ls-lint"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ls-lint": "^0.1.2"
+  },
+  "dependencies": {
+    "@ls-lint/ls-lint": "^1.10.0"
+  }
+}

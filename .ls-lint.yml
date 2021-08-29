@@ -1,0 +1,19 @@
+# .ls-lint.yml
+
+ls:
+  .dir: regex:[a-z0-9\-]+
+  .js: kebab-case
+  .css: kebab-case
+  .html: kebab-case
+  .json: kebab-case
+  .ts: kebab-case
+
+  dist:
+    .js: point.case
+
+  benchmarks/ssr:
+    .js: camelCase
+
+ignore:
+  - node_modules
+  - .git
