@@ -1,14 +1,20 @@
-#
+# Example of how to use ls-lint - By Jon D Jones 💥
 
-https://github.com/loeffel-io/ls-lint
+Example of how to use [ls-lint](https://github.com/loeffel-io/ls-lint).  
 
-install
+## Live Demo 👻
+
+ [https://opti-fullstack-sdk.jonjones.workers.dev/](https://opti-fullstack-sdk.jonjones.workers.dev/)
+
+## Steps To Get Started
+
+To install the package:
 
 ```
 npm install @ls-lint/ls-lint
 ```
 
-Add script
+Next, add this to your scripts:
 
 ```
 "lint": "node_modules/.bin/ls-lint"
@@ -43,3 +49,5 @@ Run script
 ```
 npm run lint
 ```
+
+
